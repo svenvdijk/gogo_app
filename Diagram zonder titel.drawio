@@ -1,9 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T09:08:15.644Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" version="21.1.4" etag="yKImuFFwwZ4l9ztDMOZJ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T09:19:38.324Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="5PLtjfPElgohZW-goIfK" version="21.1.4" type="github">
   <diagram name="Pagina-1" id="omHRPhUKlxqNc8UV0jen">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="V1pEFYC8FmnfgHPNz6mM-1" target="V1pEFYC8FmnfgHPNz6mM-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-1" value="&lt;b&gt;Scraper&lt;br&gt;Func: Scrape()&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;./posts/scrape.py&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V1pEFYC8FmnfgHPNz6mM-4" target="V1pEFYC8FmnfgHPNz6mM-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-4" value="&lt;div&gt;&lt;b&gt;Func: scrape_twitter&lt;/b&gt;&lt;/div&gt;./posts/twitter.py" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V1pEFYC8FmnfgHPNz6mM-6" target="V1pEFYC8FmnfgHPNz6mM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-6" value="&lt;div&gt;&lt;b&gt;Return scrape results&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Func: get_tweet_by_url&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;./apis/twitter.py&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V1pEFYC8FmnfgHPNz6mM-7" value="&lt;div&gt;&lt;b&gt;Class TwitterScraper&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Here the post get scraped&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;./apis/twitter_scraper.py&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="210" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
